@@ -22,7 +22,7 @@ if __name__ == '__main__':
                 n = names[dirname]
                 member_dir = os.path.join(dirpath,dirname)
                 for dirpath2, dirname2, filenames2 in os.walk(member_dir):
-                    print(filenames2)
+                    #print(filenames2)
                     if not dirpath2.endswith(dirname):
                         continue
                     #i=0
